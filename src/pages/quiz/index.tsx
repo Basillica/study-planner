@@ -1,0 +1,1 @@
+export { QuizModule } from "./main";

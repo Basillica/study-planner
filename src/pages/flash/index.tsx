@@ -1,0 +1,1 @@
+export { FlashcardModule } from "./main";

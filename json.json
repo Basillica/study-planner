@@ -1,0 +1,10 @@
+[
+    {
+        "question": "What is a SolidJS Signal?",
+        "answer": "A primitive that holds a value and notifies subscribers when it changes."
+    },
+    {
+        "question": "How do you create a component in SolidJS?",
+        "answer": "It is a simple function that returns JSX."
+    }
+]
