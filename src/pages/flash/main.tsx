@@ -308,70 +308,12 @@ export const FlashcardModule: Component = () => {
     };
 
     return (
-        // <div class="container mx-auto p-4 md:p-8">
-        //     <h1 class="text-3xl md:text-4xl font-bold mb-6">Flashcards</h1>
+        <div class="p-4 md:p-8">
+            <div class="bg-white p-6 rounded-lg shadow-md transition mb-4">
+                <h1 class="text-3xl md:text-4xl font-bold mb-6">Flashcards</h1>
+            </div>
 
-        //     <div class="mb-4">
-        //         {view() !== "analytics" && (
-        //             <button
-        //                 onClick={showAnalytics}
-        //                 class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300"
-        //                 style={"margin-right: 4px"}
-        //             >
-        //                 <i class="fas fa-chart-line mr-2"></i> View Analytics
-        //             </button>
-        //         )}
-
-        //         <button
-        //             onClick={() => setView("list")}
-        //             class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300"
-        //         >
-        //             <i class="fas fa-chart-line mr-2"></i> Go Back
-        //         </button>
-        //     </div>
-        //     <Show
-        //         when={view() === "list"}
-        //         fallback={
-        //             <Show
-        //                 when={view() === "form"}
-        //                 fallback={
-        //                     <Show
-        //                         when={view() === "deck"}
-        //                         fallback={
-        //                             <AnalyticsDashboard
-        //                                 readingPlans={readingPlans()}
-        //                                 flashcardDecks={flashcardDecks()}
-        //                                 quizzes={quizzes()}
-        //                             />
-        //                         }
-        //                     >
-        //                         <FlashcardDeckView
-        //                             deck={selectedDeck()!}
-        //                             onBackToList={backToList}
-        //                             onUpdatePoints={handleUpdatePoints}
-        //                         />
-        //                     </Show>
-        //                 }
-        //             >
-        //                 <FlashcardForm
-        //                     onSave={handleSaveDeck}
-        //                     onCancel={handleCancel}
-        //                     readingPlans={initialPlans}
-        //                 />
-        //             </Show>
-        //         }
-        //     >
-        //         <FlashcardDeckList
-        //             decks={flashcardDecks()}
-        //             onNewDeck={handleCreateDeck}
-        //             onViewDeck={viewDeck}
-        //             onDeleteDeck={deleteDeck}
-        //         />
-        //     </Show>
-        // </div>
-        <div class="container mx-auto p-4 md:p-8">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6">Flashcards</h1>
-            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
+            <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4 bg-white p-6 rounded-lg shadow-md transition mb-4">
                 <button
                     onClick={showMyDecks}
                     class="w-full md:w-auto bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300"

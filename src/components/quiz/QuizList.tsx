@@ -26,7 +26,7 @@ export const QuizList: Component<QuizListProps> = (props) => {
 
     return (
         <div>
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 space-y-4 md:space-y-0">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-4 space-y-4 bg-white p-6 rounded-lg shadow-md transition">
                 {/* Filter Dropdown */}
                 <div class="w-full md:w-auto">
                     <label

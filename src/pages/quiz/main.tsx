@@ -88,14 +88,8 @@
 //     );
 // };
 
-// src/components/QuizModule.tsx
 import { createSignal, type Component, Show } from "solid-js";
 import { QuizSession, QuizForm, QuizList } from "../../components/quiz";
-
-// You would typically fetch this data from a global store or a backend API.
-// For this example, we'll import mock data from the ReadingPlanModule.
-// Assuming your ReadingPlanModule.tsx exports initialPlans and the ReadingPlan type.
-// import { initialPlans, ReadingPlan } from './ReadingPlanModule';
 
 type ReadingPlan = {
     id: string;
@@ -201,8 +195,10 @@ export const QuizModule: Component = () => {
     };
 
     return (
-        <div class="container mx-auto p-4 md:p-8">
-            <h1 class="text-3xl md:text-4xl font-bold mb-6">Quizzes</h1>
+        <div class="p-4 md:p-8">
+            <div class="bg-white p-6 rounded-lg shadow-md transition mb-4">
+                <h1 class="text-3xl md:text-4xl font-bold mb-6">Quizzes</h1>
+            </div>
             <Show
                 when={view() === "list"}
                 fallback={

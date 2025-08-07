@@ -102,7 +102,7 @@ export const Home = () => {
     return (
         <div class="bg-gray-100 font-sans">
             <section class="bg-gray-800 text-white py-20 px-4 md:px-8">
-                <div class="container mx-auto text-center">
+                <div class="mx-auto text-center">
                     <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
                         Master Your Studies, One Plan at a Time
                     </h1>
@@ -121,7 +121,7 @@ export const Home = () => {
             </section>
 
             <section class="py-16 px-4 md:px-8">
-                <div class="container mx-auto">
+                <div class="mx-auto">
                     <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
                         Features Designed for Better Learning
                     </h2>
@@ -169,7 +169,7 @@ export const Home = () => {
             </section>
 
             <section class="bg-gray-800 text-white py-16 px-4 md:px-8">
-                <div class="container mx-auto text-center">
+                <div class="mx-auto text-center">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">
                         Ready to Boost Your Learning?
                     </h2>

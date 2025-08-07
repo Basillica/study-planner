@@ -116,7 +116,7 @@ export const Navbar: Component = () => {
 
     return (
         <nav class="bg-gray-500 p-4 relative" ref={navRef}>
-            <div class="container mx-auto flex justify-between items-center">
+            <div class="mx-auto flex justify-between items-center">
                 <a
                     href="/"
                     class="text-white font-bold flex items-center space-x-2"

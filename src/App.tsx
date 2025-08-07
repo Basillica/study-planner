@@ -17,7 +17,7 @@ const Layout: ParentComponent = (props) => (
     <>
         <Navbar />
         <NotificationPortal />
-        <div class="font-sans mx-auto p-6 min-h-[100vh] bg-white shadow-lg rounded-lg">
+        <div class="font-sans mx-auto min-h-[100vh] bg-white shadow-lg rounded-lg">
             {/* <header class="border-b-2 border-gray-200 pb-4 mb-6 flex justify-between items-center">
                 <h1 class="text-3xl font-bold text-blue-600">Study App</h1>
                 <nav class="flex space-x-2">
@@ -38,7 +38,7 @@ const Layout: ParentComponent = (props) => (
             <main>{props.children}</main>
         </div>
         <footer class="bg-gray-900 text-gray-400 py-8 px-4 md:px-8">
-            <div class="container mx-auto text-center">
+            <div class="mx-auto text-center">
                 <p>&copy; 2025 Your Study Platform. All rights reserved.</p>
             </div>
         </footer>
